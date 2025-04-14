@@ -1,12 +1,16 @@
-//package test;
+// package test;
 
-//import domain.Exercise;
+// import domain.Exercise;
 
 public class TestResult {
 
     public static void main(String[] args) {
 
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        int start = 10;
+        int end = 30;
+
+        System.out.println("Prime numbers between " + start + " and " + end + ":");
+        System.out.println(Exercise.Calculate(start, end));
     }
 }
+
